@@ -16,7 +16,7 @@ setup(name='pycrunch-trace',
           'Cython',
           'jsonpickle',
           'PyYAML',
-          'protobuf==3.11.3'
+          'protobuf==3.*'
       ],
       include_package_data=True,
       zip_safe=False)
